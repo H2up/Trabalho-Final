@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 10;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+img {
+  width: 300px;
+}
+
+img {
+  border-radius: 50%;
+}
+
+body {
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    min-height: 100vh;
+    transition: .5s;
+}
+
+ .Data {
+    position: fixed;
+    width: 100%;
+    max-width: 1080px;
+    min-height: 1000px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgb(0, 0, 0, 0.1);
+}
